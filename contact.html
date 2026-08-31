@@ -83,7 +83,7 @@
                     ><a
                       href="https://www.linkedin.com/in/mohamed-el-sayed-al-ajmi/"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                       ><span>in</span>
                       <div>
                         <small>LinkedIn</small><strong>Connect with me</strong>
@@ -91,7 +91,7 @@
                     ><a
                       href="https://github.com/Mohamedalagamy200"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                       ><span>GH</span>
                       <div>
                         <small>GitHub</small><strong>View repositories</strong>
@@ -104,20 +104,20 @@
                 <form class="contact-form glass-card" id="contactForm">
                   <div class="row g-3">
                     <div class="col-md-6">
-                      <label>Your Name</label
-                      ><input id="name" type="text" required />
+                      <label for="name">Your Name</label>
+                      <input id="name" name="name" type="text" required />
                     </div>
                     <div class="col-md-6">
-                      <label>Your Email</label
-                      ><input id="email" type="email" required />
+                      <label for="email">Your Email</label>
+                      <input id="email" name="email" type="email" required />
                     </div>
                     <div class="col-12">
-                      <label>Subject</label
-                      ><input id="subject" type="text" required />
+                      <label for="subject">Subject</label>
+                      <input id="subject" name="subject" type="text" required />
                     </div>
                     <div class="col-12">
-                      <label>Your Message</label
-                      ><textarea id="message" rows="6" required></textarea>
+                      <label for="message">Your Message</label>
+                      <textarea id="message" name="message" rows="6" required></textarea>
                     </div>
                     <div class="col-12">
                       <button class="btn btn-primary-custom" type="submit">
