@@ -2,7 +2,7 @@
 
 Personal developer portfolio website for Mohamed Alagamy, a Computer Science student and Web Developer based in Cairo, Egypt.
 
-The portfolio presents my technical skills, learning journey, projects, and professional contact information through a modern, responsive, dark-themed interface.
+The portfolio showcases my technical skills, learning journey, projects, and professional information through a modern, responsive, dark-themed interface.
 
 ---
 
@@ -12,30 +12,29 @@ I am a Computer Science student focused on Web Development and building modern, 
 
 I enjoy learning through practical projects and continuously improving my programming, frontend, backend, and problem-solving skills.
 
-Alongside web development, I am currently exploring AI Agents, n8n automation, and Cybersecurity.
+Alongside Web Development, I am currently exploring AI Agents, n8n Automation, and Cybersecurity.
 
-My approach to learning is based on combining theoretical knowledge with practical implementation and continuously building projects to strengthen my skills.
+My learning approach combines studying core concepts with practical implementation and building projects to strengthen my technical skills.
 
 ---
 
-## Portfolio Overview
+## Portfolio
 
-This portfolio is designed to provide a clear overview of my development journey and current technical direction.
+This website is my personal developer portfolio and represents my ongoing learning and development journey.
 
-It includes:
+It provides an overview of:
 
-- Professional introduction
-- About section
-- Technical skills
-- Current learning areas
-- Project showcase
+- My professional introduction
+- My technical skills
+- My current learning areas
+- My projects
 - Live project demonstrations
-- CV download
+- My CV
 - GitHub profile
 - LinkedIn profile
 - Contact information
 
-The website uses a dark developer-focused design with a responsive layout optimized for desktop, tablet, and mobile devices.
+The portfolio uses a dark developer-focused design with a responsive layout for desktop, tablet, and mobile devices.
 
 ---
 
@@ -79,8 +78,6 @@ The website uses a dark developer-focused design with a responsive layout optimi
 
 A simple website created to present a store and showcase its products through a clean and user-friendly web interface.
 
-The project is available as a live website:
-
 **Live Demo:**  
 https://mohamedalagamy200.github.io/NTI-project/#Home
 
@@ -90,79 +87,62 @@ https://mohamedalagamy200.github.io/NTI-project/#Home
 
 The portfolio currently includes:
 
-### Home
-
-A professional introduction presenting my name, role, development focus, social links, and featured project.
-
-### About
-
-An overview of my background, interests, and current development direction.
-
-### Skills
-
-A structured presentation of my technical skills and areas I am currently developing.
-
-### Projects
-
-A dedicated section for showcasing completed and future projects with project images, names, and live links.
-
-### Contact
-
-A dedicated page containing my contact information and professional links.
+- **Home** — Introduction and professional overview
+- **About** — Background and development direction
+- **Skills** — Technical skills and current learning areas
+- **Projects** — Project showcase and live demonstrations
+- **Contact** — Contact information and professional links
 
 ---
 
 ## Development Approach
 
-This portfolio is built as a static multi-page website using standard frontend technologies.
+This portfolio is built as a static multi-page website using standard web technologies.
 
 The project focuses on:
 
-- Clean and readable code structure
+- Clean and maintainable code
 - Responsive web design
 - Modern user interface
-- Reusable project presentation
-- Clear separation between HTML, CSS, and JavaScript
-- Practical use of Bootstrap
+- Clear separation of HTML, CSS, and JavaScript
+- Practical use of Bootstrap 5
 - Practical use of Tailwind CSS
-- Cross-device responsiveness
+- Responsive project presentation
 - Easy future expansion
 
-The project structure is designed so that new projects can be added as my development experience grows.
+The project structure is designed to make it easy to add new projects as my experience and skills grow.
 
 ---
 
 ## Responsive Design
 
-The portfolio is designed to adapt to different screen sizes.
+The portfolio is designed to provide a consistent experience across different screen sizes, including:
 
-The layout supports:
+- Desktop
+- Laptop
+- Tablet
+- Mobile
 
-- Desktop screens
-- Laptop screens
-- Tablets
-- Mobile devices
-
-The Projects section is also structured to adapt its layout depending on the available screen width.
+The project showcase also adapts to different screen sizes to maintain a clean and organized layout.
 
 ---
 
 ## Project Showcase
 
-Each project in the portfolio can include:
+Projects are presented using a consistent structure that can include:
 
 - Project image
 - Project name
-- Short project description
+- Project description
 - Live project link
 
-The project presentation is designed to make future additions simple and consistent without requiring major changes to the existing layout.
+The Projects section is designed to be easily expandable as new projects are developed.
 
 ---
 
-## Current Learning
+## Current Focus
 
-I am continuously expanding my technical knowledge and currently focusing on:
+I am currently focused on strengthening my knowledge and practical experience in:
 
 - Frontend Development
 - Backend Development
@@ -171,32 +151,31 @@ I am continuously expanding my technical knowledge and currently focusing on:
 - Workflow Automation with n8n
 - Cybersecurity
 
-My goal is to turn what I learn into practical projects and gradually build more complete and advanced web applications.
+My goal is to continue learning through practical projects and gradually build more advanced and complete web applications.
 
 ---
 
 ## Future Development
 
-This portfolio is designed to grow alongside my skills and experience.
+This portfolio will continue to evolve as I gain more experience and build new projects.
 
 Future updates may include:
 
 - Additional web projects
-- React-based projects
-- More advanced full-stack applications
+- React projects
+- More advanced frontend applications
+- Full-stack applications
 - Backend projects
 - AI-powered applications
 - Automation workflows
 - Additional technical skills
 - Improved project documentation
 
-The Projects section is intentionally structured to make adding new work straightforward.
-
 ---
 
 ## CV
 
-A PDF version of my CV is included in the portfolio project and is available through the website using the **Download CV** option.
+A PDF version of my CV is included in the project and can be accessed through the portfolio website using the **Download CV** option.
 
 ---
 
@@ -220,9 +199,9 @@ https://www.linkedin.com/in/mohamed-el-sayed-al-ajmi/
 
 This portfolio is an ongoing personal project.
 
-As I continue learning and developing new projects, the website will be updated with new work, technologies, skills, and professional information.
+As I continue learning and developing new projects, the portfolio will be updated with new work, technologies, skills, and professional information.
 
-The current version represents my starting point as I continue developing my Web Development and Full-Stack skills.
+The current version represents my ongoing development as a Web Developer and Computer Science student.
 
 ---
 
