@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Technical skills of Mohamed Alagamy" />
+    <title>Skills | Mohamed Alagamy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      tailwind = {
+        config: { important: "#tw-root", corePlugins: { preflight: false } },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="tw-root">
+      <header class="site-header fixed-top nav-visible">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container py-2">
+            <a class="navbar-brand brand-mark" href="index.html"
+              ><span class="brand-symbol">&lt;/&gt;</span>ALAGAMY</a
+            >
+            <button
+              class="navbar-toggler custom-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNav"
+            >
+              <span></span><span></span><span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+              <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link active" href="skills.html">Skills</a></li>
+                <li><a class="nav-link" href="projects.html">Projects</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+              <button
+                class="theme-toggle ms-lg-3"
+                id="themeToggle"
+                type="button"
+              >
+                ☾
+              </button>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="floating-nav" id="floatingNav" aria-live="polite">
+        <button
+          class="floating-nav-trigger"
+          id="floatingNavToggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="floatingNavMenu"
+        >
+          ☰
+        </button>
+        <ul class="floating-nav-menu" id="floatingNavMenu" role="menu" aria-label="Main navigation">
+          <li class="floating-nav-item"><a class="floating-nav-link" href="index.html" role="menuitem">Home</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="about.html" role="menuitem">About</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link active" href="skills.html" role="menuitem">Skills</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="projects.html" role="menuitem">Projects</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="contact.html" role="menuitem">Contact</a></li>
+        </ul>
+      </div>
+      <main class="inner-page">
+        <section class="page-hero">
+          <div class="container">
+            <span class="eyebrow">TECHNICAL SKILLS</span>
+            <h1>Tools I <span>Work With</span></h1>
+            <p>
+              No skill bars — a clear breakdown of technologies and learning
+              areas.
+            </p>
+          </div>
+        </section>
+        <section class="section-block pt-0">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-md-6 col-xl-4">
+                <div class="skill-card">
+                  <div class="skill-card-icon">&lt;/&gt;</div>
+                  <h2>Frontend</h2>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind CSS</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-4">
+                <div class="skill-card">
+                  <div class="skill-card-icon">API</div>
+                  <h2>Backend</h2>
+                  <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>REST APIs</li>
+                    <li>SQL</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-4">
+                <div class="skill-card">
+                  <div class="skill-card-icon">C++</div>
+                  <h2>Computer Science</h2>
+                  <ul>
+                    <li>C++</li>
+                    <li>OOP</li>
+                    <li>Data Structures</li>
+                    <li>Algorithms</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-4">
+                <div class="skill-card learning-card">
+                  <div class="skill-card-icon">↗</div>
+                  <h2>Currently Learning</h2>
+                  <ul>
+                    <li>AI Agents</li>
+                    <li>n8n Automation</li>
+                    <li>Cybersecurity</li>
+                    <li>Backend Development</li>
+                    <li>Full-Stack Web Development</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="container d-flex justify-content-between flex-wrap gap-3">
+          <span>© <span id="currentYear"></span> Mohamed Alagamy.</span
+          ><span>Web Developer Portfolio</span>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

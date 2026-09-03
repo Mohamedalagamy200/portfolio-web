@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Mohamed Alagamy — Frontend / Full-Stack Web Developer portfolio."
+    />
+    <title>Mohamed Alagamy | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      tailwind = {
+        config: { important: "#tw-root", corePlugins: { preflight: false } },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="tw-root">
+      <header class="site-header fixed-top nav-visible">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container py-2">
+            <a class="navbar-brand brand-mark" href="index.html"
+              ><span class="brand-symbol">&lt;/&gt;</span>ALAGAMY</a
+            >
+            <button
+              class="navbar-toggler custom-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNav"
+            >
+              <span></span><span></span><span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+              <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+                <li><a class="nav-link active" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="skills.html">Skills</a></li>
+                <li><a class="nav-link" href="projects.html">Projects</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+              <button
+                class="theme-toggle ms-lg-3"
+                id="themeToggle"
+                type="button"
+              >
+                ☾
+              </button>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="floating-nav" id="floatingNav" aria-live="polite">
+        <button
+          class="floating-nav-trigger"
+          id="floatingNavToggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="floatingNavMenu"
+        >
+          ☰
+        </button>
+        <ul class="floating-nav-menu" id="floatingNavMenu" role="menu" aria-label="Main navigation">
+          <li class="floating-nav-item"><a class="floating-nav-link active" href="index.html" role="menuitem">Home</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="about.html" role="menuitem">About</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="skills.html" role="menuitem">Skills</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="projects.html" role="menuitem">Projects</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="contact.html" role="menuitem">Contact</a></li>
+        </ul>
+      </div>
+
+      <main>
+        <section class="hero-section">
+          <div class="container">
+            <div class="row align-items-center g-5 min-vh-100 pt-5">
+              <div class="col-lg-7">
+                <span class="eyebrow-badge">👋 Hello, I'm</span>
+                <h1 class="hero-title mt-4">Mohamed <span>Alagamy</span></h1>
+                <h2 class="hero-role">Frontend / Full-Stack Web Developer</h2>
+                <p class="hero-text">
+                  I build modern, responsive and user-friendly websites while
+                  continuously developing my skills in web development and
+                  emerging technologies.
+                </p>
+                <div class="d-flex flex-wrap gap-3 mt-4">
+                  <a class="btn btn-primary-custom" href="projects.html"
+                    >View My Projects →</a
+                  ><a class="btn btn-outline-custom" href="contact.html"
+                    >Contact Me ✉</a
+                  >
+                  <a
+                    class="btn btn-outline-custom"
+                    href="assets/Mohamed-Alagamy-CV.pdf"
+                    download
+                  >
+                    Download CV ↓
+                  </a>
+                </div>
+                <div class="social-row mt-4">
+                  <a
+                    href="https://github.com/Mohamedalagamy200"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub profile"
+                    >GH</a
+                  ><a
+                    href="https://www.linkedin.com/in/mohamed-el-sayed-al-ajmi/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn profile"
+                    >in</a
+                  ><a href="mailto:mohamedalagamy606@gmail.com" aria-label="Email Mohamed Alagamy">@</a>
+                </div>
+              </div>
+              <div class="col-lg-5 text-center">
+                <div class="profile-wrap">
+                  <div class="profile-glow"></div>
+                  <img
+                    src="images/profile.jpg"
+                    class="profile-image"
+                    alt="Mohamed Alagamy profile photo"
+                  />
+                  <div class="floating-code floating-one">&lt;/&gt;</div>
+                  <div class="floating-code floating-two">{ }</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block">
+          <div class="container">
+            <div class="section-heading">
+              <span>01</span>
+              <h2>About Me</h2>
+            </div>
+            <div class="row g-4">
+              <div class="col-lg-7">
+                <div class="glass-card h-100">
+                  <h3>Building. Learning. Improving.</h3>
+                  <p>
+                    I'm a Computer Science student and web developer focused on
+                    building clean, responsive and practical web experiences. I
+                    enjoy learning by turning what I study into real projects.
+                  </p>
+                  <p class="mb-0">
+                    My current learning path includes web development, AI
+                    Agents, n8n automation and Cybersecurity.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="info-card h-100">
+                  <div><span>Name</span><strong>Mohamed Alagamy</strong></div>
+                  <div><span>Location</span><strong>Cairo, Egypt</strong></div>
+                  <div><span>Focus</span><strong>Web Development</strong></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block">
+          <div class="container">
+            <div class="section-heading">
+              <span>02</span>
+              <h2>Skills</h2>
+            </div>
+            <div class="row g-3">
+              <div class="col-md-6 col-xl-3">
+                <div class="skill-mini">
+                  <b>Frontend</b>
+                  <p>HTML · CSS · JavaScript · Bootstrap · Tailwind CSS</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-3">
+                <div class="skill-mini">
+                  <b>Backend</b>
+                  <p>Node.js · Express.js · REST APIs · SQL</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-3">
+                <div class="skill-mini">
+                  <b>Computer Science</b>
+                  <p>C++ · OOP · Data Structures · Algorithms</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-3">
+                <div class="skill-mini">
+                  <b>Currently Learning</b>
+                  <p>AI Agents · n8n · Cybersecurity</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-4">
+              <a href="skills.html" class="text-link">Explore all skills →</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block">
+          <div class="container">
+            <div
+              class="d-flex justify-content-between align-items-end flex-wrap gap-3 mb-4"
+            >
+              <div class="section-heading mb-0">
+                <span>03</span>
+                <h2>Projects</h2>
+              </div>
+              <a href="projects.html" class="btn btn-outline-custom btn-sm"
+                >View All Projects</a
+              >
+            </div>
+            <div class="projects-grid">
+              <article class="project-item">
+                <a
+                  class="project-link"
+                  href="https://mohamedalagamy200.github.io/NTI-project/#Home"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="images/projects/NTI-Project.png"
+                    class="project-image"
+                    alt="MIA ITTALONNI project preview"
+                  />
+                  <div class="project-overlay">
+                    <div class="project-brand">
+                      <span>&lt;/&gt;</span><strong>ALAGAMY</strong>
+                    </div>
+                    <span class="project-action">View Live Project ↗</span>
+                  </div></a
+                >
+                <h3 class="project-title">MIA ITTALONNI</h3>
+              </article>
+              <article class="project-item">
+                <a
+                  class="project-link"
+                  href="https://mohamedalagamy200.github.io/Landing-Page-NexaFlow/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View NexaFlow project"
+                ><img
+                    src="images/projects/NexaFlow.png"
+                    class="project-image"
+                    alt="NexaFlow project preview"
+                  />
+                  <div class="project-overlay">
+                    <div class="project-brand">
+                      <span>&lt;/&gt;</span><strong>ALAGAMY</strong>
+                    </div>
+                    <span class="project-action">View Live Project ↗</span>
+                  </div></a
+                >
+                <h3 class="project-title">NexaFlow</h3>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block">
+          <div class="container">
+            <div class="cta-card">
+              <div>
+                <span class="eyebrow">LET'S CONNECT</span>
+                <h2>Have a project in mind?</h2>
+                <p>Feel free to reach out and let's build something useful.</p>
+              </div>
+              <a href="contact.html" class="btn btn-primary-custom"
+                >Contact Me →</a
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="container d-flex justify-content-between flex-wrap gap-3">
+          <span>© <span id="currentYear"></span> Mohamed Alagamy.</span
+          ><span>HTML · CSS · JavaScript · Bootstrap · Tailwind CSS</span>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
