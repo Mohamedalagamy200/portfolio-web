@@ -1,32 +1,65 @@
-# Mohamed Alagamy | Portfolio
+# Mohamed Alagamy | Web Developer Portfolio
 
-Personal developer portfolio for Mohamed Alagamy, a Computer Science student and Web Developer based in Cairo, Egypt.
+<p align="center">
+	<strong>Frontend / Full-Stack Web Developer</strong><br />
+	Building modern, responsive, and practical web experiences.
+</p>
 
-This repository contains a static multi-page portfolio website showcasing personal information, technical skills, project work, and contact details.
+## About
 
-## Overview
+This repository contains the personal portfolio of Mohamed Alagamy, a Computer Science student and Web Developer based in Cairo, Egypt.
 
-The project is a responsive personal portfolio built with HTML, CSS, and JavaScript. It includes multiple pages for the main portfolio sections and uses Bootstrap 5 and Tailwind CSS for layout and styling.
+The portfolio presents professional information, technical skills, selected projects, downloadable CV details, and direct contact options through a clean multi-page experience.
 
-## Features
+## Highlights
 
-- Responsive multi-page portfolio layout
-- Dark developer-focused visual style
-- Responsive navigation with scroll-based behavior
-- Mobile-friendly navigation
-- Project showcase section
-- CV download
-- Contact section
-- GitHub and LinkedIn links
-- Responsive layout across desktop, tablet, and mobile devices
+- Responsive layout for desktop, tablet, and mobile screens
+- Dark and light visual themes with saved preference
+- Accessible responsive navigation with keyboard support
+- Scroll-aware header and floating navigation
+- Project showcase with live demo links
+- Downloadable CV
+- Contact form with prepared email handoff and direct email fallback
+- Semantic HTML structure and descriptive image alternatives
+- Reduced-motion support for users who prefer less animation
 
-## Technologies Used
+## Built With
 
 - HTML5
 - CSS3
 - JavaScript
 - Bootstrap 5
-- Tailwind CSS
+- Google Fonts: Manrope and Space Grotesk
+
+## Portfolio Sections
+
+| Section | Description |
+| --- | --- |
+| Home | Introduction, profile summary, social links, and featured projects |
+| About | Background, interests, focus, and personal information |
+| Skills | Frontend, backend, computer science, and current learning areas |
+| Projects | Selected projects with previews and live demos |
+| Contact | Email, social profiles, and a contact message form |
+
+## Featured Projects
+
+### MIA ITTALONNI
+
+A storefront-style website focused on presenting products through a clean and user-friendly interface.
+
+[View Live Project](https://mohamedalagamy200.github.io/NTI-project/#Home)
+
+### NexaFlow
+
+A modern landing page designed to present a digital product with a clear visual hierarchy and responsive layout.
+
+[View Live Project](https://mohamedalagamy200.github.io/Landing-Page-NexaFlow/)
+
+### Focusly
+
+A productivity dashboard and to-do list project focused on organizing tasks through an interactive interface.
+
+[View Live Project](https://mohamedalagamy200.github.io/Project-To-Do-List/)
 
 ## Project Structure
 
@@ -44,52 +77,22 @@ The project is a responsive personal portfolio built with HTML, CSS, and JavaScr
 ├── images/
 │   ├── profile.jpg
 │   └── projects/
-│       └── NTI-Project.png
+│       ├── NTI-Project.png
+│       ├── NexaFlow.png
+│       └── Focusly.png
 ├── assets/
 │   └── Mohamed-Alagamy-CV.pdf
 └── README.md
 ```
 
-## Featured Project
-
-### MIA ITTALONNI
-
-The portfolio currently features **MIA ITTALONNI**, a simple storefront-style website for presenting a store and its products through a clean and user-friendly interface.
-
-**Live Demo:**  
-[MIA ITTALONNI](https://mohamedalagamy200.github.io/NTI-project/#Home)
-
-[NexaFlow](https://mohamedalagamy200.github.io/Landing-Page-NexaFlow/)
-
-## Usage
-
-This is a static website and does not require a backend or a build process.
-
-The project can be opened directly in a browser or served using a local static web server.
-
-## About the Developer
-
-Mohamed Alagamy is a Computer Science student and Web Developer focused on building practical web projects and continuously expanding his frontend and full-stack development skills.
-
 ## Contact
 
-- **Email:** [mohamedalagamy606@gmail.com](mailto:mohamedalagamy606@gmail.com)
-- **GitHub:** [Mohamed Alagamy](https://github.com/Mohamedalagamy200)
-- **LinkedIn:** [Mohamed Alagamy](https://www.linkedin.com/in/mohamed-el-sayed-al-ajmi/)
+- Email: [mohamedalagamy606@gmail.com](mailto:mohamedalagamy606@gmail.com)
+- GitHub: [Mohamed Alagamy](https://github.com/Mohamedalagamy200)
+- LinkedIn: [Mohamed Alagamy](https://www.linkedin.com/in/mohamed-el-sayed-al-ajmi/)
 
+## About Mohamed
 
-## Currently Learning
+Mohamed Alagamy is a Computer Science student focused on web development, practical projects, and continuous improvement across frontend and full-stack technologies.
 
-The following areas are part of my ongoing learning and development:
-
-- AI Agents
-- n8n Automation
-- Cybersecurity
-- Backend Development
-- Full-Stack Web Development
-
-These areas are learning and exploration topics and are not necessarily technologies used in this repository.
-
-## Project Status
-
-This portfolio is an ongoing personal project and will continue to evolve as new projects, skills, and improvements are added.
+Current areas of learning include AI Agents, n8n automation, Cybersecurity, backend development, and full-stack web development.

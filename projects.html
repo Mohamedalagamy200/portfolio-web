@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -16,12 +16,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <script>
-      tailwind = {
-        config: { important: "#tw-root", corePlugins: { preflight: false } },
-      };
-    </script>
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <div id="tw-root">
@@ -36,6 +30,9 @@
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#mainNav"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+              aria-controls="mainNav"
             >
               <span></span><span></span><span></span>
             </button>
@@ -47,14 +44,16 @@
                 <li><a class="nav-link active" href="projects.html">Projects</a></li>
                 <li><a class="nav-link" href="contact.html">Contact</a></li>
               </ul>
-              <button
-                class="theme-toggle ms-lg-3"
-                id="themeToggle"
-                type="button"
-              >
-                ☾
-              </button>
             </div>
+            <button
+              class="theme-toggle ms-2 ms-lg-3"
+              id="themeToggle"
+              type="button"
+              aria-label="Switch to light theme"
+              title="Switch theme"
+            >
+              ☾
+            </button>
           </div>
         </nav>
       </header>
@@ -70,12 +69,12 @@
         >
           ☰
         </button>
-        <ul class="floating-nav-menu" id="floatingNavMenu" role="menu" aria-label="Main navigation">
-          <li class="floating-nav-item"><a class="floating-nav-link" href="index.html" role="menuitem">Home</a></li>
-          <li class="floating-nav-item"><a class="floating-nav-link" href="about.html" role="menuitem">About</a></li>
-          <li class="floating-nav-item"><a class="floating-nav-link" href="skills.html" role="menuitem">Skills</a></li>
-          <li class="floating-nav-item"><a class="floating-nav-link active" href="projects.html" role="menuitem">Projects</a></li>
-          <li class="floating-nav-item"><a class="floating-nav-link" href="contact.html" role="menuitem">Contact</a></li>
+        <ul class="floating-nav-menu" id="floatingNavMenu" aria-label="Main navigation">
+          <li class="floating-nav-item"><a class="floating-nav-link" href="index.html">Home</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="about.html">About</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="skills.html">Skills</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link active" href="projects.html">Projects</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
       <main class="inner-page">
@@ -131,6 +130,27 @@
                   </div></a
                 >
                 <h2 class="project-title">NexaFlow</h2>
+              </article>
+              <article class="project-item">
+                <a
+                  class="project-link"
+                  href="https://mohamedalagamy200.github.io/Project-To-Do-List/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View Focusly project"
+                ><img
+                    src="images/projects/Focusly.png"
+                    class="project-image"
+                    alt="Focusly productivity dashboard preview"
+                  />
+                  <div class="project-overlay">
+                    <div class="project-brand">
+                      <span>&lt;/&gt;</span><strong>ALAGAMY</strong>
+                    </div>
+                    <span class="project-action">View Live Project ↗</span>
+                  </div></a
+                >
+                <h2 class="project-title">Focusly</h2>
               </article>
             </div>
           </div>

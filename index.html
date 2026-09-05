@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -19,12 +19,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <script>
-      tailwind = {
-        config: { important: "#tw-root", corePlugins: { preflight: false } },
-      };
-    </script>
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <div id="tw-root">
@@ -39,6 +33,9 @@
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#mainNav"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+              aria-controls="mainNav"
             >
               <span></span><span></span><span></span>
             </button>
@@ -50,14 +47,16 @@
                 <li><a class="nav-link" href="projects.html">Projects</a></li>
                 <li><a class="nav-link" href="contact.html">Contact</a></li>
               </ul>
-              <button
-                class="theme-toggle ms-lg-3"
-                id="themeToggle"
-                type="button"
-              >
-                ☾
-              </button>
             </div>
+            <button
+              class="theme-toggle ms-2 ms-lg-3"
+              id="themeToggle"
+              type="button"
+              aria-label="Switch to light theme"
+              title="Switch theme"
+            >
+              ☾
+            </button>
           </div>
         </nav>
       </header>
@@ -73,12 +72,12 @@
         >
           ☰
         </button>
-        <ul class="floating-nav-menu" id="floatingNavMenu" role="menu" aria-label="Main navigation">
-          <li class="floating-nav-item"><a class="floating-nav-link active" href="index.html" role="menuitem">Home</a></li>
-          <li class="floating-nav-item"><a class="floating-nav-link" href="about.html" role="menuitem">About</a></li>
-          <li class="floating-nav-item"><a class="floating-nav-link" href="skills.html" role="menuitem">Skills</a></li>
-          <li class="floating-nav-item"><a class="floating-nav-link" href="projects.html" role="menuitem">Projects</a></li>
-          <li class="floating-nav-item"><a class="floating-nav-link" href="contact.html" role="menuitem">Contact</a></li>
+        <ul class="floating-nav-menu" id="floatingNavMenu" aria-label="Main navigation">
+          <li class="floating-nav-item"><a class="floating-nav-link active" href="index.html">Home</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="about.html">About</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="skills.html">Skills</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="projects.html">Projects</a></li>
+          <li class="floating-nav-item"><a class="floating-nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
 
@@ -115,14 +114,20 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub profile"
-                    >GH</a
+                    ><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.46-1.16-1.12-1.47-1.12-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.93.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.6 9.6 0 0 1 12 7.9a9.6 9.6 0 0 1 2.5.34c1.9-1.29 2.74-1.02 2.74-1.02.56 1.38.21 2.4.11 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.35 4.68-4.58 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" />
+                    </svg></a
                   ><a
                     href="https://www.linkedin.com/in/mohamed-el-sayed-al-ajmi/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn profile"
-                    >in</a
-                  ><a href="mailto:mohamedalagamy606@gmail.com" aria-label="Email Mohamed Alagamy">@</a>
+                    ><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M5.1 3.5A2.1 2.1 0 1 1 5.1 7.7a2.1 2.1 0 0 1 0-4.2ZM3.3 9h3.6v11.5H3.3V9Zm5.8 0h3.4v1.57h.05c.47-.9 1.62-1.85 3.34-1.85 3.58 0 4.24 2.36 4.24 5.43v6.35h-3.55v-5.63c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.73H9.1V9Z" />
+                    </svg></a
+                  ><a href="mailto:mohamedalagamy606@gmail.com" aria-label="Email Mohamed Alagamy"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M3.5 5.5h17A1.5 1.5 0 0 1 22 7v10a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 17V7a1.5 1.5 0 0 1 1.5-1.5Zm.3 2.1 7.2 5.26a1.7 1.7 0 0 0 2 0l7.2-5.26V7H3.8v.6Z" />
+                  </svg></a>
                 </div>
               </div>
               <div class="col-lg-5 text-center">
@@ -266,6 +271,27 @@
                 >
                 <h3 class="project-title">NexaFlow</h3>
               </article>
+              <article class="project-item">
+                <a
+                  class="project-link"
+                  href="https://mohamedalagamy200.github.io/Project-To-Do-List/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View Focusly project"
+                ><img
+                    src="images/projects/Focusly.png"
+                    class="project-image"
+                    alt="Focusly productivity dashboard preview"
+                  />
+                  <div class="project-overlay">
+                    <div class="project-brand">
+                      <span>&lt;/&gt;</span><strong>ALAGAMY</strong>
+                    </div>
+                    <span class="project-action">View Live Project ↗</span>
+                  </div></a
+                >
+                <h3 class="project-title">Focusly</h3>
+              </article>
             </div>
           </div>
         </section>
@@ -288,7 +314,7 @@
       <footer class="site-footer">
         <div class="container d-flex justify-content-between flex-wrap gap-3">
           <span>© <span id="currentYear"></span> Mohamed Alagamy.</span
-          ><span>HTML · CSS · JavaScript · Bootstrap · Tailwind CSS</span>
+          ><span>HTML · CSS · JavaScript · Bootstrap</span>
         </div>
       </footer>
     </div>
