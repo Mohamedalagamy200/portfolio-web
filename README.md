@@ -61,6 +61,12 @@ A productivity dashboard and to-do list project focused on organizing tasks thro
 
 [View Live Project](https://mohamedalagamy200.github.io/Project-To-Do-List/)
 
+### Weather App
+
+A weather application for checking current weather information through a focused, responsive interface.
+
+[View Live Project](https://mohamedalagamy200.github.io/Project-weather-app/)
+
 ## Project Structure
 
 ```text
@@ -79,7 +85,8 @@ A productivity dashboard and to-do list project focused on organizing tasks thro
 │   └── projects/
 │       ├── NTI-Project.png
 │       ├── NexaFlow.png
-│       └── Focusly.png
+│       ├── Focusly.png
+│       └── Weather App.png
 ├── assets/
 │   └── Mohamed-Alagamy-CV.pdf
 └── README.md
